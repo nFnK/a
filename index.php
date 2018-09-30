@@ -1,12 +1,9 @@
 <?php
 error_reporting(1);
-//set_time_limit(500);
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('Europe/Istanbul');
 require 'vendor/autoload.php';
-use Umi\hash;
 
-define('URL', '');
 define('AMQP_DEBUG', false);
 
 $router = new \Umi\Router();
